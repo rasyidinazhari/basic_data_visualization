@@ -4,4 +4,4 @@ seaborn==0.12.2
 streamlit==1.25.0
 babel==2.16.0
 numpy==1.26.0
-pillow==9.3.0
+pillow==9.5.0
