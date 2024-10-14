@@ -113,7 +113,7 @@ rfm_df = create_rfm_df(main_df)
 if daily_rents_df is not None and not daily_rents_df.empty:
     # Header and subheader
     st.header('Bike Sharing Dashboard')
-    st.subheader('Daily Rents')
+    st.subheader('Daily Rents / Total Pengguna Sepeda Harian')
 
     # Display metrics in columns
     col1, col2 = st.columns(2)
@@ -176,7 +176,7 @@ ax[1].tick_params(axis='x', labelsize=30)
  
 st.pyplot(fig)
 # --------------------------------------------------------------------------------
-st.subheader("Customer Demographics")
+st.subheader("Customer Demographics &  Intensity of bicycle use based on hours and times (morning, afternoon/evening, night)")
 st.text("Weather : ")
 st.text("1. Clear, Few clouds, Partly cloudy, Partly cloudy")
 st.text("2. Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist")
